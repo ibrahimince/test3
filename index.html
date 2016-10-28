@@ -22,9 +22,9 @@ navigator.mozGetUserMedia ||
 navigator.msGetUserMedia);
 
 navigator.getMedia({video: true,audio: true}, function() {
-  document.getElementById('notes').innerHTML = '<ul><li>You have a camera avaible!</li></ul>'+'<ul><li>You have a avaible microfon!</li></ul>';
+  document.getElementById('notes').innerHTML = '<ul><li>You have a avaible camera!</li></ul>'+'<ul><li>You have a avaible microfon!</li></ul>';
 }, function() {
-  document.getElementById('notes').innerHTML = '<ul><li>You dont have a avaible camera !</li></ul>'+'<ul><li>You dont have a microfon avaible!</li></ul>';
+  document.getElementById('notes').innerHTML = '<ul><li>You dont have a avaible camera !</li></ul>'+'<ul><li>You dont have a avaible microfon !</li></ul>';
 });
 
 
